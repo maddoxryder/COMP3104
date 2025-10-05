@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo 'Building project...' && mkdir -p build && echo '<h1>Hello Travis CI</h1>' > build/index.html"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maddoxryder/COMP3104.git"
+    "url": "git+https://github.com/MylesRM/COMP3104.git"
   },
   "keywords": [],
   "author": "",
