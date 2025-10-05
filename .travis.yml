@@ -1,13 +1,17 @@
 language: node_js
 node_js:
   - "stable"
+
+# Commands to install dependencies and build your project
 script:
   - npm install
-  - npm run build
+  - npm run build   # Make sure this generates your 'build' folder
+
+# Deployment to GitHub Pages
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $github_token
-  local_dir: build
+  github_token: $github_token  # Add this in Travis settings as an env variable
+  local_dir: build             # Folder that contains the static site
   on:
-    branch: main
+    branch: main               # Deploy only from 'main' branch
