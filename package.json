@@ -9,11 +9,12 @@
     "test": "echo \"Error: no test specified\"",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "homepage": "https://maddoxryder.github.io/COMP3104"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MylesRM/COMP3104.git"
+    "url": "git+https://github.com/maddoxryder/COMP3104.git"
   },
   "keywords": [],
   "author": "",
@@ -26,14 +27,13 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   },
   "eslintConfig": {
     "extends": [
